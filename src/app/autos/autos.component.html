@@ -1,0 +1,8 @@
+<div class="autos--grid">
+    <div *ngFor="let auto of autos">
+      <img [src]="auto.image" alt="image">
+      <h2>{{auto.model}}</h2>
+      <h5>{{auto.type}}</h5>
+      <p>{{auto.description}}</p>
+    </div>
+  </div>
